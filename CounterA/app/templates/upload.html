@@ -1,0 +1,19 @@
+﻿{% extends "layout.html" %}
+
+{% block content %}
+<form action="" method="POST" enctype="multipart/form-data">
+    {{form.hidden_tag()}}<br/>
+                         <p>
+                             {{form.name.label}}
+                             {{form.name}}<br />
+                             {{form.surname.label}}
+                             {{form.surname}}<br />
+                             {{form.email.label}}
+                             {{form.email}}<br />
+                             {{form.file.label}}
+                             {{form.file}}<br />
+                             {{ form.submit() }}<br />
+                         </p>
+</form>
+
+{% endblock %}
