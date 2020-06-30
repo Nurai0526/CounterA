@@ -9,8 +9,11 @@
     Dear {{data.name}}, На вашу почту {{data.email}} мы можем отправить результат:)
 </p>
 <p>
-    Uploading new file
+    Upload new file
     <a href="{{url_for('upload')}}">Upload</a>
+</p>
+<p>
+    Hello {{result}}
 </p>
 {% for country in dictionary %}
 {{dictionary[country]}} столица страны {{country}} <br>

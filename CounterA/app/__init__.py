@@ -6,4 +6,4 @@ wsgi_app = app.wsgi_app
 app.config.from_object(Config)
 
 from app import routes
-#import config
+

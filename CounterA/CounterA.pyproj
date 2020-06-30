@@ -40,6 +40,7 @@
     <Compile Include="config.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="myLib1.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\templates\result.html" />
